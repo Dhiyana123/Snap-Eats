@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.dhiyana.snapeats.Fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/activity_home" />
+    <fragment
+        android:id="@+id/NotificationFragment"
+        android:name="com.dhiyana.snapeats.Fragment.NotificationFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/activity_notification" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.dhiyana.snapeats.Fragment.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/activity_profile" />
+
+</navigation>
